@@ -1,0 +1,8 @@
+spring:
+  dubbo:
+    application:
+      name: springboot-dubbo-demo
+    registry:
+      address: zookeeper://192.168.204.129
+      port: 2181
+    scan: org.example.customer.web
